@@ -1,0 +1,21 @@
+base_llm:
+  model: "gpt-4o"
+  max_tokens: 250
+  temperature: 0.8
+
+judge_llm:
+  model: "gpt-4o-mini"
+
+data:
+  train_en_csv: "dspy_cn/data/Generate_CN_MultiThreading - Train English.csv"
+  train_ta_csv: "dspy_cn/data/Generate_CN_MultiThreading - Train Tamil.csv"
+  test_en_csv:  "dspy_cn/data/Generate_CN_MultiThreading - Test English.csv"
+  test_ta_csv:  "dspy_cn/data/Generate_CN_MultiThreading - Test Tamil.csv"
+
+optimization:
+  train_sample_size: 180
+  num_trials: 5
+
+output:
+  predictions_en: "dspy_cn/outputs/predictions_en.csv"
+  predictions_ta: "dspy_cn/outputs/predictions_ta.csv"

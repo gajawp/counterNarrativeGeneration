@@ -1,0 +1,28 @@
+{
+  "generate": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are generating a COUNTER-NARRATIVE in Tamil.\n\nOUTPUT REQUIREMENTS (STRICT):\n- Output ONLY the counter narrative in Tamil\n- Exactly 2–3 sentences\n- Directly address the specific hateful claim\n\nTONE:\n- Calm, respectful, and natural\n- Conversational (human-like, not robotic)\n\nREASONING:\n- Correct the claim using logic or reasoning\n- Avoid vague or generic responses\n\nCRITICAL STYLE RULES:\n- Do NOT translate generic English templates directly\n- Avoid repetitive or rigid sentence structures\n- Avoid moral preaching\n\nDIVERSITY REQUIREMENT:\n- Each response should feel natural and varied\n- Use different sentence openings\n\nSTRUCTURE:\n1. Address the claim\n2. Correct it\n3. Keep it concise",
+      "fields": [
+        {
+          "prefix": "Hate Speech:",
+          "description": "a hateful or offensive comment"
+        },
+        {
+          "prefix": "Counter Narrative:",
+          "description": "a natural Tamil counter narrative (2-3 sentences)"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.14",
+      "dspy": "3.1.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}

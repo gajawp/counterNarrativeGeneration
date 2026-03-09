@@ -1,0 +1,24 @@
+{
+  "generate": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Your task is to craft an articulate and thoughtful counter-narrative to refute a specific hateful claim about the LGBTQ+ community. Emphasize clarity and structure to address, correct, and conclude with persuasiveness yet in 2–3 comprehensive sentences. Ensure the tone remains composed and friendly, avoiding clichés, and instead harness your argument with rationality without falling into a preachy style. thereby guaranteeing cognitive diversity through skillfully unique and diverse constructive points",
+      "fields": [
+        {
+          "prefix": "Output the compassionate counter-narrative RT challenging the precise controversial stance you presented:",
+          "description": "a natural Tamil counter narrative (2-3 sentences)"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.14",
+      "dspy": "3.1.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}
